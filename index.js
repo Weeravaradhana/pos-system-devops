@@ -17,7 +17,7 @@ const ProductRoute = require('./routes/ProductRoute');
 const OrderRoute = require('./routes/OrderRoute');
 
 const PORT = process.env.SERVER_PORT || 3000;
-const MONGO_URI = process.env.MONGO_URI || 'mongodb+srv://educationseekerscloud_db_user:seeo4zRp3ioGLrBC@cluster0.10yknbw.mongodb.net/pos_system_devops?retryWrites=true&w=majority&appName=Cluster0';
+const MONGO_URI = process.env.MONGO_URI || 'mongodb+srv://devboot437_db_user:fSumv0QyVD82qZkE@cluster0.l3kv8sq.mongodb.net/pos_system_devops?appName=Cluster0';
 
 mongoose.connect(MONGO_URI).then(()=>{
     console.log('Mongo db connected...');
